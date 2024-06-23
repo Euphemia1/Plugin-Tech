@@ -1,0 +1,143 @@
+/* Global Styles */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-color: #f0f0f0;
+}
+
+.login-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+	max-width: 350px;
+	margin: 0 auto;
+}
+
+.login-col1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	width: 100%;
+}
+
+.login-col1 h1 {
+	color: #007bff;
+	margin-bottom: 10px;
+}
+
+.login-col1 img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+
+.reg-section {
+	background-color: #f0f0f0;
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.reg-section h1 {
+	color: #007bff;
+	margin-bottom: 10px;
+}
+
+.reg-section h2 {
+	color: #333333;
+	margin-bottom: 20px;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	width: 100%;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+input[type="submit"] {
+	background-color: #007bff;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+	background-color: #0069d9;
+}
+
+.s-text {
+	color: #333333;
+	margin-bottom: 20px;
+}
+
+.s-btn {
+	background-color: #007bff;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.s-btn:hover {
+	background-color: #0069d9;
+}
+
+#register {
+	display: none;
+}
+
+.login-form {
+	margin-top: 20px;
+}
+
+@media (max-width: 1000px) {
+	.login-container {
+		flex-direction: inherit;
+		align-items: center;
+		padding: 20px;
+	}
+	.login-col1 {
+		width: 100%;
+	}
+	.login-col2 {
+		width: 150%;
+	}
+}
