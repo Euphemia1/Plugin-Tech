@@ -1,3 +1,8 @@
+const loginBtn = document.getElementById('login-btn');
+loginBtn.addEventListener('click', () => {
+  window.location.href = 'Home.html';
+});
+
 // Select the form element
 const form = document.querySelector('form');
 
