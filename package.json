@@ -1,0 +1,26 @@
+{
+  "name": "unppluged-insights",
+  "version": "1.0.0",
+  "description": "Plug In Tech is a website that provides the latest technological news,insights and advancements inspired by a multifaceted girl who explores her interests and shares her context with the community,country and world large , discussing how we can integrate technology with other sectors and developing meaningful and impactful products and solutions to positively make a change and add value to our day to day needs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Euphemia1/Unppluged-Insights.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Euphemia1/Unppluged-Insights/issues"
+  },
+  "homepage": "https://github.com/Euphemia1/Unppluged-Insights#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0"
+  }
+}
