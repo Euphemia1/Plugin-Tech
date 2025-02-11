@@ -18,6 +18,11 @@ mongoose.connect('mongodb://localhost:27017/unplugged-insights', {
     useUnifiedTopology: true
 });
 
+const podcastsRoutes = require('./routes/podcasts');
+const reviewsRoutes = require('./routes/reviews');
+
+app.use('/api/podcasts', podcastsRoutes);
+app.use('/api/reviews', reviewsRoutes);
 // Routes
 app.use('/api/articles', articlesRoutes);
 
